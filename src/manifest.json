@@ -1,0 +1,17 @@
+{
+  "name": "Google Meet Reader",
+  "author": "Wictor Nogueira",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*", "http://meet.google.com/*"],
+      "js": ["js/injected.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_title": "Google Meet Reader"
+  },
+  "permissions": [ "storage" ]
+}

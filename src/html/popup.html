@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Meet Reader</title>
+
+  <link rel="stylesheet" href="../vendor/bootstrap.css">
+  <link rel="stylesheet" href="../css/popup.css">
+
+  <script src="../js/popup.js" defer></script>
+</head>
+<body>
+  <header>
+    <h4>Google Meet Reader</h2>
+  </header>
+
+  <main>
+    <div class="form-group form-check">
+      <input class="form-check-input" type="checkbox" id="enable" name="enable">
+      <label class="form-check-label" for="enable">Habilitar</label>
+    </div>
+    
+    <div class="form-group">
+      <label for="reqPrefix">Prefixo</label>
+      <input type="text" class="text-input form-control" name="prefix" id="prefix">
+      <small class="form-text text-muted">Caso definido, serão lidas apenas mensagens contendo tal prefixo.</small>
+    </div>
+  </main>
+
+  <footer><div id="update"></div></footer>
+</body>
+</html>

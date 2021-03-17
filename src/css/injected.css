@@ -1,0 +1,32 @@
+@keyframes rainbow {
+  0% {
+    fill: #FF0000;
+  }
+  
+  15% {
+    fill: #FF7F00;
+  }
+  
+  30% {
+    fill: #FFFF00;
+  }
+  
+  45% {
+    fill: #00FF00;
+  }
+  
+  60% {
+    fill: #0000FF;
+  }
+  
+  75% {
+    fill: #4B0082;
+  }
+  100% {
+    fill: #8F00FF;
+  }
+}
+
+div.uArJ5e.UQuaGc.kCyAyd.QU4Gid.foXzLb span.l4V7wb.Fxmcue span.NPEfkd.RveJvd.snByac div.ZaI3hb div.HKarue span.DPvwYc.sm8sCf.KdraA svg.Hdh4hc.cIGbvc.NMm5M {
+  animation: rainbow 900ms infinite linear;
+}
