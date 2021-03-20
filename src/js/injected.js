@@ -1,14 +1,9 @@
 (async function(){
   class Reader {
-    constructor () {
-      this.prefix = '';
-      this.enabled = false;
-    }
-
     init () {
       chrome.storage.local.get(['g_meet_tts_prefix', 'g_meet_tts_enabled'], ({ g_meet_tts_prefix, g_meet_tts_enabled }) => {
-        this.prefix = g_meet_tts_prefix;
-        this.enabled = g_meet_tts_enabled;
+        this.prefix = g_meet_tts_prefix || '';
+        this.enabled = g_meet_tts_enabled || false;
 
         this.enabled && this.start();
       });
