@@ -1,7 +1,7 @@
 {
   "name": "Google Meet Reader",
   "author": "Wictor Nogueira",
-  "version": "0.1",
+  "version": "0.1.1",
   "manifest_version": 3,
   "content_scripts": [
     {
